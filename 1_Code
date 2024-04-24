@@ -1,2 +1,14 @@
+int ledpin = 4; //ledpin connected to digital pin 4
+void setup() {
+  // put your setup code here, to run once:
+    pinMode(ledpin, OUTPUT);//sets the digital pin as output
+}
 
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(ledpin, HIGH);//turns the LED on
+  delay(1000);//waits for a second
+  digitalWrite(ledpin, LOW);//turns the LED off
+  delay(1000);//waits for a second
 
+}
